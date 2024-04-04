@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proračun Hurstovog parametra - GUI</title>
+    <link rel="stylesheet" href="stil.css">
+    <link rel="shortcut icon" href="ico.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="glavniDiv">
+
+        <div class="glavniMeni">
+
+            <div>
+                <h2>Softversko rešenje za određivanje Hurstovog parametra telekomunikacionog saobraćaja i sličnosti samom sebi | JavaScript | GUI</h2>
+                <b>Odabir JSON vremenske serije | Vrednost IP paketa sa Wireshark I/O grafika</b>
+            </div>
+
+            <div>
+                <input id="odabirJSONniza" type="file">  
+            </div>
+
+            <div>
+                <textarea  id="ucitavanjeJSONniza"></textarea>
+            </div>
+
+            <div>
+                <button id="opcijaPrikazNiza">Prikaz niza</button>
+                <button id="opcijaNoviUnos">Novi unos</button>
+            </div>
+
+            <div>
+                <p>Elementi JSON niza | Vrednosti Wireshark I/O grafika: </p>
+                <textarea id="prikazJSONniza"></textarea>
+            </div>
+
+            <div>
+                <p>Broj elemenata vremenske serije u vidu JSON niza je: </p>
+                <input id="brojJSONelemenata" type="text">
+            </div>
+
+            <div>
+                <button id="opcijaNizSvihElemenata">Niz svih elemenata</button>
+            </div>
+
+            <div>
+                <p>Celokupna vremenska serija</p>
+                <textarea id="celokupnaVremenskaSerija"></textarea>
+            </div>
+
+            <div>
+                <p>Broj elemenata vremenske serije je:</p>
+                <input id="brojElVrSerije" type="text">
+            </div>
+
+            <div>
+                <button id="opcijaNasumicnePodeleVrSerije">Nasumična podela vremenske serije</button>
+            </div>
+
+            <div>
+                <p>Nasumična podela niza u grupe: </p>
+                <textarea id="nasumicneGrupeVremenskeSerije"></textarea>
+            </div>
+
+            <div>
+                <p>Broj podnizova serije (N): </p>
+                <input id="brojPodnizova" type="text">
+            </div>
+
+            <div>
+                <p>Proračun Hurstovog parametra</p>
+                <button id="proracunH">Proračun</button>
+            </div>
+
+           <!-- Proračun Hurstovog parametra--> 
+            <div class="proracunHurstovogParametra">
+
+                <div>
+                    <p>Zbir elemenata vremenske serije: </p>
+                    <input id="zbirElVrSerije" type="text">
+                </div>
+
+                <div>
+                    <p>Srednja vrednost elemenata celokupne vremenske serije: </p>
+                    <input id="srVrVrSerije" type="text">
+                </div>
+
+                <!-- 
+                <div>
+                    <p>Broj podnizova - grupa (A): </p>
+                    <input type="text">
+                </div>
+                -->
+
+                <div>
+                    <p>Prikaz broja članova podnizova (n): </p>
+                    <textarea id="brClanovaPodnizova"></textarea>
+                </div>
+       
+                <div>
+                    <p>Prikaz zbira elemenata podnizova: </p>
+                    <textarea id="zbirClanovaPodnizova"></textarea>
+                </div>
+                
+                <div>
+                    <p>Prikaz srednjih vrednosti podnizova: </p>
+                    <textarea id="srVrPodnizova"></textarea>
+                </div>
+
+                <div>
+                    <p>Prikaz kumulativnih devijacija svakog od podnizova (w): </p>
+                    <textarea id="kumulativneDevijacijePodnizova"></textarea>
+                </div>
+
+                <div>
+                    <p>Prikaz opsega podnizova (R): </p>
+                    <textarea id="Rpodnizova"></textarea>
+                </div>
+
+                <div>
+                    <p>Prikaz standardne devijacije podnizova (S): </p>
+                    <textarea id="Spodnizova"></textarea>
+                </div>
+
+                <div>
+                    <p>Prikaz R/S odnosa podnizova: </p>
+                    <textarea id="RSodnosPodnizova"></textarea>
+                </div>
+
+                <div>
+                    <p>Prikaz logaritamskog R/S odnosa podnizova: </p>
+                    <textarea id="logRSodnosPodnizova"></textarea>
+                </div>
+
+                <div>
+                    <p>Usrednjavanje R/S odnosa:</p>
+                    <input id="RSusrednjavanje" type="text">
+                </div>
+
+                <div>
+                    <p>Najbliža celobrojna vrednost (s) za logN:</p>
+                    <p>Osnova za logN je 2</p>
+                    <input id="najblize_s_za_logN" type="text">
+                </div>
+
+                <div>
+                    <p>Prikaz logaritamskih vrednosti broja (n) elemenata grupa: </p>
+                    <textarea id="logn_grupa"></textarea>
+                </div>
+
+                <div>
+                   <p>Prikaz kvadrata logaritamskih vrednosti broja (n) elemenata grupa: </p>
+                   <textarea id="logn_kv_grupa"></textarea>
+                   <p>Vrednosti suma su filtrirane, tj. različite od tipa NaN (!==NaN)*</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="vizuelizacijaPodataka">
+
+            <div>
+                <p>Vrednost Hurstovog parametra je: </p>
+                <input id="vrednostHurstovogParametra" type="text">
+            </div>
+
+            <div>
+                <p>Vizuelni prikaz podataka - R/S dijagram:</p>
+                <canvas id="RSgrafik"></canvas>
+                
+            </div>
+
+            <div>
+                <p>Vizuelni prikaz svih vrednosti</p>
+                <canvas id="vizGrafik"></canvas>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="kod.js"></script>
+
+</body>
+</html>
