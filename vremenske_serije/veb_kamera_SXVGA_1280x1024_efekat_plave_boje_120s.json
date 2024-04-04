@@ -1,0 +1,486 @@
+[
+ {
+   "Interval start": 0,
+   "All Packets": 1402680
+ },
+ {
+   "Interval start": 1,
+   "All Packets": 1444400
+ },
+ {
+   "Interval start": 2,
+   "All Packets": 378264
+ },
+ {
+   "Interval start": 3,
+   "All Packets": 509712
+ },
+ {
+   "Interval start": 4,
+   "All Packets": 632496
+ },
+ {
+   "Interval start": 5,
+   "All Packets": 619392
+ },
+ {
+   "Interval start": 6,
+   "All Packets": 606800
+ },
+ {
+   "Interval start": 7,
+   "All Packets": 672360
+ },
+ {
+   "Interval start": 8,
+   "All Packets": 535840
+ },
+ {
+   "Interval start": 9,
+   "All Packets": 1185390
+ },
+ {
+   "Interval start": 10,
+   "All Packets": 1294300
+ },
+ {
+   "Interval start": 11,
+   "All Packets": 643960
+ },
+ {
+   "Interval start": 12,
+   "All Packets": 584384
+ },
+ {
+   "Interval start": 13,
+   "All Packets": 631072
+ },
+ {
+   "Interval start": 14,
+   "All Packets": 1193990
+ },
+ {
+   "Interval start": 15,
+   "All Packets": 1214460
+ },
+ {
+   "Interval start": 16,
+   "All Packets": 608224
+ },
+ {
+   "Interval start": 17,
+   "All Packets": 656248
+ },
+ {
+   "Interval start": 18,
+   "All Packets": 620832
+ },
+ {
+   "Interval start": 19,
+   "All Packets": 806240
+ },
+ {
+   "Interval start": 20,
+   "All Packets": 1240440
+ },
+ {
+   "Interval start": 21,
+   "All Packets": 1582130
+ },
+ {
+   "Interval start": 22,
+   "All Packets": 684288
+ },
+ {
+   "Interval start": 23,
+   "All Packets": 582528
+ },
+ {
+   "Interval start": 24,
+   "All Packets": 416688
+ },
+ {
+   "Interval start": 25,
+   "All Packets": 449248
+ },
+ {
+   "Interval start": 26,
+   "All Packets": 679616
+ },
+ {
+   "Interval start": 27,
+   "All Packets": 219312
+ },
+ {
+   "Interval start": 28,
+   "All Packets": 1037000
+ },
+ {
+   "Interval start": 29,
+   "All Packets": 1521370
+ },
+ {
+   "Interval start": 30,
+   "All Packets": 1351550
+ },
+ {
+   "Interval start": 31,
+   "All Packets": 631944
+ },
+ {
+   "Interval start": 32,
+   "All Packets": 632928
+ },
+ {
+   "Interval start": 33,
+   "All Packets": 207392
+ },
+ {
+   "Interval start": 34,
+   "All Packets": 620024
+ },
+ {
+   "Interval start": 35,
+   "All Packets": 639600
+ },
+ {
+   "Interval start": 36,
+   "All Packets": 656768
+ },
+ {
+   "Interval start": 37,
+   "All Packets": 679184
+ },
+ {
+   "Interval start": 38,
+   "All Packets": 633232
+ },
+ {
+   "Interval start": 39,
+   "All Packets": 1475500
+ },
+ {
+   "Interval start": 40,
+   "All Packets": 1155270
+ },
+ {
+   "Interval start": 41,
+   "All Packets": 650424
+ },
+ {
+   "Interval start": 42,
+   "All Packets": 783488
+ },
+ {
+   "Interval start": 43,
+   "All Packets": 692208
+ },
+ {
+   "Interval start": 44,
+   "All Packets": 644848
+ },
+ {
+   "Interval start": 45,
+   "All Packets": 667896
+ },
+ {
+   "Interval start": 46,
+   "All Packets": 631072
+ },
+ {
+   "Interval start": 47,
+   "All Packets": 1541130
+ },
+ {
+   "Interval start": 48,
+   "All Packets": 1359220
+ },
+ {
+   "Interval start": 49,
+   "All Packets": 661000
+ },
+ {
+   "Interval start": 50,
+   "All Packets": 595416
+ },
+ {
+   "Interval start": 51,
+   "All Packets": 655344
+ },
+ {
+   "Interval start": 52,
+   "All Packets": 473952
+ },
+ {
+   "Interval start": 53,
+   "All Packets": 1424
+ },
+ {
+   "Interval start": 54,
+   "All Packets": 492688
+ },
+ {
+   "Interval start": 55,
+   "All Packets": 920320
+ },
+ {
+   "Interval start": 56,
+   "All Packets": 1741720
+ },
+ {
+   "Interval start": 57,
+   "All Packets": 814752
+ },
+ {
+   "Interval start": 58,
+   "All Packets": 646408
+ },
+ {
+   "Interval start": 59,
+   "All Packets": 647512
+ },
+ {
+   "Interval start": 60,
+   "All Packets": 659728
+ },
+ {
+   "Interval start": 61,
+   "All Packets": 631112
+ },
+ {
+   "Interval start": 62,
+   "All Packets": 1318340
+ },
+ {
+   "Interval start": 63,
+   "All Packets": 1534230
+ },
+ {
+   "Interval start": 64,
+   "All Packets": 631072
+ },
+ {
+   "Interval start": 65,
+   "All Packets": 596304
+ },
+ {
+   "Interval start": 66,
+   "All Packets": 642992
+ },
+ {
+   "Interval start": 67,
+   "All Packets": 642992
+ },
+ {
+   "Interval start": 68,
+   "All Packets": 667696
+ },
+ {
+   "Interval start": 69,
+   "All Packets": 681472
+ },
+ {
+   "Interval start": 70,
+   "All Packets": 735312
+ },
+ {
+   "Interval start": 71,
+   "All Packets": 655344
+ },
+ {
+   "Interval start": 72,
+   "All Packets": 606800
+ },
+ {
+   "Interval start": 73,
+   "All Packets": 683624
+ },
+ {
+   "Interval start": 74,
+   "All Packets": 631072
+ },
+ {
+   "Interval start": 75,
+   "All Packets": 1893220
+ },
+ {
+   "Interval start": 76,
+   "All Packets": 1020300
+ },
+ {
+   "Interval start": 77,
+   "All Packets": 723624
+ },
+ {
+   "Interval start": 78,
+   "All Packets": 644096
+ },
+ {
+   "Interval start": 79,
+   "All Packets": 667704
+ },
+ {
+   "Interval start": 80,
+   "All Packets": 645792
+ },
+ {
+   "Interval start": 81,
+   "All Packets": 644416
+ },
+ {
+   "Interval start": 82,
+   "All Packets": 620016
+ },
+ {
+   "Interval start": 83,
+   "All Packets": 619152
+ },
+ {
+   "Interval start": 84,
+   "All Packets": 636744
+ },
+ {
+   "Interval start": 85,
+   "All Packets": 621016
+ },
+ {
+   "Interval start": 86,
+   "All Packets": 655872
+ },
+ {
+   "Interval start": 87,
+   "All Packets": 1274060
+ },
+ {
+   "Interval start": 88,
+   "All Packets": 1602920
+ },
+ {
+   "Interval start": 89,
+   "All Packets": 620576
+ },
+ {
+   "Interval start": 90,
+   "All Packets": 535584
+ },
+ {
+   "Interval start": 91,
+   "All Packets": 564360
+ },
+ {
+   "Interval start": 92,
+   "All Packets": 1007500
+ },
+ {
+   "Interval start": 93,
+   "All Packets": 1663280
+ },
+ {
+   "Interval start": 94,
+   "All Packets": 608224
+ },
+ {
+   "Interval start": 95,
+   "All Packets": 558256
+ },
+ {
+   "Interval start": 96,
+   "All Packets": 558256
+ },
+ {
+   "Interval start": 97,
+   "All Packets": 1067970
+ },
+ {
+   "Interval start": 98,
+   "All Packets": 1630030
+ },
+ {
+   "Interval start": 99,
+   "All Packets": 570944
+ },
+ {
+   "Interval start": 100,
+   "All Packets": 572112
+ },
+ {
+   "Interval start": 101,
+   "All Packets": 1580810
+ },
+ {
+   "Interval start": 102,
+   "All Packets": 1142210
+ },
+ {
+   "Interval start": 103,
+   "All Packets": 642992
+ },
+ {
+   "Interval start": 104,
+   "All Packets": 237856
+ },
+ {
+   "Interval start": 105,
+   "All Packets": 582336
+ },
+ {
+   "Interval start": 106,
+   "All Packets": 560544
+ },
+ {
+   "Interval start": 107,
+   "All Packets": 231232
+ },
+ {
+   "Interval start": 108,
+   "All Packets": 72816
+ },
+ {
+   "Interval start": 109,
+   "All Packets": 291264
+ },
+ {
+   "Interval start": 110,
+   "All Packets": 244584
+ },
+ {
+   "Interval start": 111,
+   "All Packets": 534512
+ },
+ {
+   "Interval start": 112,
+   "All Packets": 589936
+ },
+ {
+   "Interval start": 113,
+   "All Packets": 1820400
+ },
+ {
+   "Interval start": 114,
+   "All Packets": 741504
+ },
+ {
+   "Interval start": 115,
+   "All Packets": 671224
+ },
+ {
+   "Interval start": 116,
+   "All Packets": 679616
+ },
+ {
+   "Interval start": 117,
+   "All Packets": 668368
+ },
+ {
+   "Interval start": 118,
+   "All Packets": 681040
+ },
+ {
+   "Interval start": 119,
+   "All Packets": 710000
+ },
+ {
+   "Interval start": 120,
+   "All Packets": 96656
+ }
+]
