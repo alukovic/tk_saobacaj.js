@@ -718,8 +718,8 @@ proracunH.addEventListener('click', function(){
     H_ = Number((s*sumaLognLogRS - sumaLogn*sumaLogRS)/(s*sumaLogn_2 - sumaLogn*sumaLogn));
     H = Number(H_.toFixed(2));
 
-    if(H >= 0 && H <= 1 && typeof(H) !== 'NaN'){
-
+    //if(H >= 0 && H <= 1 && typeof(H) !== 'NaN'){
+    if(H >=0.5 && H <=1 && typeof(H) !== 'NaN'){
     console.log(`Hurstov parametar je: ${H}`);
     vrednostHurstovogParametra.value = H;
     
@@ -728,7 +728,8 @@ proracunH.addEventListener('click', function(){
 
     } else {
 
-        vrednostHurstovogParametra.value = H;
+        //vrednostHurstovogParametra.value = H;
+        window.location.reload(true);
         console.log(`Desila se neuobičajena greška. Klikinite na dugme Obrisati i pokušajte ponovo. Neki od mogućih uzroka su pojava više NaN vrednosti ili semantičke greške u kodu.`);
         console.log(`Vrednost H parametra je:  ${H}`);
 
